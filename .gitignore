@@ -1,0 +1,14 @@
+#如
+#忽略所有 .txt结尾的文件
+*.txt
+#properties.txt除外
+!properties.txt
+#仅忽略项目根目录下的所有文件,不会忽略temp目录
+/temp
+#忽略build/目录下的所有文件
+build/
+#会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
+doc/*.txt
+
+
+.idea/
